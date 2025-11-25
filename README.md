@@ -1,8 +1,12 @@
 ## 🌱 About This Project
 > 이 프로젝트는 팀 협업 웹게임 개발을 위해 만들어졌습니다.
 
-- 협업 툴: GitHub
-- 코드 스타일: HTML/TypeScript/css
+- **협업 툴:** GitHub  
+- **사용 도구(Tech Stack):**  
+  - **Frontend:** React(Vite), TypeScript, HTML/CSS  
+  - **Backend / Server:** Nginx, Ubuntu  
+  - **Infra / Deployment:** DuckDNS  
+  - **CI/CD:** GitHub Actions
 
 ## 호스팅 주소
 > 호스팅 주소입니더.
@@ -10,49 +14,22 @@
 ---
 ## 🧑‍💻 Team Members
 
-| Profile | Name | branch | function | GitHub |
-|:--------:|:-----|:-----|:-------|:--------|
-| <img src="https://github.com/hyeopyday.png" width="100" /> | **이재협** | main | **팀장** | [@hyeopyday](https://github.com/hyeopyday) |
-| <img src="https://github.com/GUBBIB.png" width="100" /> | **장문용** | feature/1 | **팀원** | [@GUBBIB](https://github.com/GUBBIB) |
-| <img src="https://github.com/Xssgh.png" width="100" /> | **장현호** | feature/2 | **팀원** | [@Xssgh](https://github.com/Xssgh) |
+| Profile | Name | Role | GitHub |
+|:--------:|:------:|:------:|:--------:|
+| <img src="https://github.com/hyeopyday.png" width="100" /> | **이재협** | 팀장 | [@hyeopyday](https://github.com/hyeopyday) |
+| <img src="https://github.com/GUBBIB.png" width="100" /> | **장문용** | 팀원 | [@GUBBIB](https://github.com/GUBBIB) |
+| <img src="https://github.com/Xssgh.png" width="100" /> | **장현호** | 팀원 | [@Xssgh](https://github.com/Xssgh) |
 
 ---
 
-### 교수님 얘기 한 내용 대충 필기
+## 🛠️ 담당 업무/Contributions
 
-1. 팀장은 main 팀원 branch 쓰기
-
-2. 10개 이상의 프롬프트를 던지고, 소스를 느껴라?
-
-3. 팀장 팀원끼리 차이점이 있으면 합치고 발표 ( 게임 고르고 , 게임 프롬프트, 업그레이드 뭐했고 , (얼마나 업그레이드 했는지 ) 
-
-4. 제일 허접한 걸로 고르고 업그레이드 많이하기 깃허브에 request 하기
-
-5. 발표는 11월 7일에 한다.(발표자료, 웹게임 만들기)
-
-
-## 수정해야할 것 - 11/06 13:44 추가
-* 아이템 추가(clear)
-```bash
-B 아이템 (Ball)
-속도 업
-체력회복
-텔레포트
-
-S 아이템 (Strike)
-시야 밝히기
-적 속박
-숫자 하나 공개
-```
-
-* 난이도 별 몹 수 수정(clear)
-
-* 효과음 넣기(clear)
-  - <https://www.sellbuymusic.com/search/soundeffect>
-  
-  - <https://pixabay.com/ko/sound-effects/>
-
-* PPT 만들기(clear)
-
-  
->>>>>>> Item_V2
+### 👤 장문용 (GUBBIB)
+- DuckDNS를 이용한 서비스 도메인 설정  
+- Ubuntu 서버 환경 구성  
+- Nginx Reverse Proxy 설정 및 배포 환경 구축  
+- GitHub Actions 기반 CI/CD 파이프라인 구성  
+  - Vite 빌드 결과를 자동으로 서버에 반영하는 자동 배포 흐름 구현  
+- 게임 로직 구현
+  - 랜덤 맵 생성 알고리즘 작성
+  - 아이템 로직 추가
